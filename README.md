@@ -1,5 +1,5 @@
 <h1 align="center">
-# Dog List
+# Task-Manager-Demo
 </h1>
 
 ## Screenshot
@@ -13,7 +13,7 @@
 
 ```bash
 # Clone the project:
-$ git clone https://github.com/pcaixeto/dog-list-demo.git
+$ git clone 
 
 # Install the dependencies
 $ npm install
@@ -32,12 +32,9 @@ $ npm run dev
 ## 💻 Technologies and libraries
 
 <ul>
-  <li>NextJS</li>
+  <li>NestJS</li>
   <li>Typescript</li>
   <li>React</li>
-  <li>React Hooks</li>
-  <li>Chakra-UI</li>
-  <li>Dog CEO API</li>
 </ul>
 
 ### Deployed in Vercel
