@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { Injectable } from '@nestjs/common';
-import { CreateTaskDto } from '../dto/task.dto';
+import { Task, CreateTaskDto } from '../dto/task.dto';
 
 @Injectable()
 export class TasksService {
@@ -26,11 +26,4 @@ export class TasksService {
   deleteTask(taskId: string): void {
     this.tasks = this.tasks.filter((task) => task.id !== taskId);
   }
-}
-
-interface Task {
-  id: string;
-  title: string;
-  description: string;
-  dueDate: Date;
 }
