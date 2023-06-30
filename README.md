@@ -25,8 +25,8 @@ $ npm run dev
 
 # :rocket: Features
 
-- Display some dog breeds
-- Show name of the breed + image
+- Create/update/delete tasks
+- User authentication
 - Pagination 
 
 ## 💻 Technologies and libraries
@@ -34,7 +34,6 @@ $ npm run dev
 <ul>
   <li>NestJS</li>
   <li>Typescript</li>
-  <li>React</li>
 </ul>
 
 ### Deployed in Vercel
@@ -42,7 +41,6 @@ $ npm run dev
 [Click Here to show](https://dog-list-demo.vercel.app/)
 
 ## :scroll: TO-DOS
-   - Make responsive design
-   - Better frontend
+   - Create tests with Jest
 
 **By: Pedro Caixeta**
