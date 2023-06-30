@@ -34,6 +34,7 @@ $ npm run dev
 <ul>
   <li>NestJS</li>
   <li>Typescript</li>
+  <li>Postman</li>
 </ul>
 
 ### Deployed in Vercel
