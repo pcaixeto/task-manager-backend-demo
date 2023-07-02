@@ -25,7 +25,7 @@ $ npm run dev
 
 # :rocket: Features
 
-- Create/update/delete tasks
+- Get/Create/update/delete tasks using GET, POST, PUT and DELETE Request Methods
 - User authentication
 - All testing is being made with Postman and Jest
 
