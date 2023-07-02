@@ -32,6 +32,7 @@ $ npm run dev
 ## 💻 Technologies and libraries
 
 <ul>
+  <li>NodeJS</li>
   <li>NestJS</li>
   <li>Typescript</li>
   <li>Jest</li>

@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import { Injectable } from '@nestjs/common';
 import { Task, CreateTaskDto } from '../dto/task.dto';
+import { UpdateTaskDto } from '../dto/updateTask.dto';
 
 @Injectable()
 export class TasksService {
