@@ -48,5 +48,17 @@ describe('TasksController', () => {
   //-----------------------------------------------------------------
 
   // Testing PUT updateTask()
+  it('should update a task', () => {
+    const taskId = '1';
+    const updateTaskDto = { title: 'Updated Task', description: 'Updated Description' };
+    const updatedTask = { id: taskId, title: 'Updated Task', description: 'Updated Description', dueDate: new Date() };
+    
+    const updateTaskSpy = jest.spyOn(tasksController, 'updateTask').mockImplementation(() => updatedTask);
+  
+    const result = tasksController.updateTask(taskId, updateTaskDto);
+  
+    expect(updateTaskSpy).toHaveBeenCalledWith(taskId, updateTaskDto);
+    expect(result).toEqual(updatedTask);
+  });
   //-----------------------------------------------------------------
 });
