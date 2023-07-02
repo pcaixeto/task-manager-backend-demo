@@ -33,15 +33,17 @@ describe('TasksController', () => {
   // Testing DELETE deleteTask()
   it('should delete a task', () => {
     const taskId = '1';
+    const successMessage = `Task ${taskId} deleted successfully`;
+
     const deleteTaskSpy = jest.spyOn(tasksController, 'deleteTask').mockImplementation(() => {
-      // Implement your desired behavior here, such as returning a success message or a deleted task object
-      return 'Task deleted successfully';
+      console.log(successMessage);
+      return successMessage;
     });
   
     const result = tasksController.deleteTask(taskId);
   
     expect(deleteTaskSpy).toHaveBeenCalledWith(taskId);
-    expect(result).toEqual('Task deleted successfully');
+    expect(result).toEqual(successMessage);
   });
   //-----------------------------------------------------------------
 });
