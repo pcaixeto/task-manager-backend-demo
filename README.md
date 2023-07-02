@@ -27,14 +27,14 @@ $ npm run dev
 
 - Create/update/delete tasks
 - User authentication
-- Pagination 
+- All testing is being made with Postman and Jest
 
 ## 💻 Technologies and libraries
 
 <ul>
   <li>NestJS</li>
   <li>Typescript</li>
-  <li>Postman</li>
+  <li>Jest</li>
 </ul>
 
 ### Deployed in Vercel
@@ -42,6 +42,9 @@ $ npm run dev
 [Click Here to show](https://dog-list-demo.vercel.app/)
 
 ## :scroll: TO-DOS
-   - Create tests with Jest
+   - (DONE)Create tests with Jest
+   - User Authentication
+   - Frontend Interface
+
 
 **By: Pedro Caixeta**
