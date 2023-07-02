@@ -1,7 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { Task, CreateTaskDto } from '../dto/task.dto';
-import { UpdateTaskDto } from '../dto/updateTask.dto';
+import { Task, CreateTaskDto, UpdateTaskDto } from '../dto/task.dto';
 
 @Injectable()
 export class TasksService {

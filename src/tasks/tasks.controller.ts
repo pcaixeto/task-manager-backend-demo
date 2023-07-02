@@ -1,8 +1,7 @@
 /* eslint-disable prettier/prettier */
 import { Controller, Get, Post, Body, Param, Delete, Put } from '@nestjs/common';
 import { TasksService } from './tasks.service';
-import { CreateTaskDto } from '../dto/task.dto';
-import { UpdateTaskDto } from 'src/dto/updateTask.dto';
+import { CreateTaskDto, UpdateTaskDto } from '../dto/task.dto';
 
 @Controller('tasks')
 export class TasksController {
